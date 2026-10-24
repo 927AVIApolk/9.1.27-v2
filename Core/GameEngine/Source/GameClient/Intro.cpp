@@ -166,7 +166,7 @@ void Intro::doTheSuperHackers()
 
 	{
 		// Pretext
-		m_unicodeStrings[0] = TheGameText->FETCH_OR_SUBSTITUTE("CREDITS:CustomIntroPretext", L"Game improved by");
+		m_unicodeStrings[0] = TheGameText->FETCH_OR_SUBSTITUTE("CREDITS:CustomIntroPretext", L"Support from the T.S.H. development team and 927AVIApolk.");
 		DisplaySetting setting;
 		setting.font = "Consolas";
 		setting.text = m_unicodeStrings[0].str();
@@ -182,7 +182,7 @@ void Intro::doTheSuperHackers()
 		// Team name
 		DisplaySetting setting;
 		setting.font = "Consolas";
-		setting.text = L"THE SUPER HACKERS";
+		setting.text = L"PROJECT RAPTOR";
 		setting.sizeY = 32;
 		setting.centerOffsetY = centerOffsetY;
 		centerOffsetY += setting.sizeY * resolutionScale * 2;
@@ -206,10 +206,10 @@ void Intro::doTheSuperHackers()
 	{
 		// China Hacker image
 		DisplaySetting setting;
-		setting.imageName = "SNHacker2_L";
+		setting.imageName = "LogoStartIntro";
 		setting.centerOffsetY = centerOffsetY;
-		setting.sizeX = (Int)(122 * 0.50f);
-		setting.sizeY = (Int)(98 * 0.50f);
+		setting.sizeX = (Int)(529 * 0.50f);
+		setting.sizeY = (Int)(194 * 0.50f);
 		settings.push_back(setting);
 	}
 
