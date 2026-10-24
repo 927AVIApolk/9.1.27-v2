@@ -127,7 +127,7 @@ VectorClass<Vector4>			VertexDiffuse;	// vertex diffuse/alpha colors
 VectorClass<Vector2>			VertexUV;		// vertex texture coords
 
 // Some DX 8 variables
-#define MAX_VB_SIZE			2048
+#define MAX_VB_SIZE			4096
 #define MAX_TRI_POINTS		MAX_VB_SIZE/3
 #define MAX_TRI_IB_SIZE		3*MAX_TRI_POINTS
 #define MAX_QUAD_POINTS		MAX_VB_SIZE/4
