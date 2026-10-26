@@ -1330,7 +1330,7 @@ void EditParameter::readFontFile( const char *filename )
 		GameFont *font = TheFontLibrary->getFont( AsciiString(fontBuffer), size, bold );
 		if( font == nullptr )
 		{
-			char buffer[ 4024 ];
+			char buffer[ 1024 ];
 
 			snprintf( buffer, ARRAY_SIZE(buffer), "Warning: The font '%s' Size: '%d' Bold: '%d', specified in the config file could not be loaded.  Does that font exist?",
 							 fontBuffer, size, bold );
