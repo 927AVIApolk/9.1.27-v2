@@ -1240,7 +1240,7 @@ Bool EditParameter::loadCommandButtons(CComboBox *pCombo, AsciiString match)
 	char *token;
 	char seps[]   = " ,\t\n\r";
 
-	fp->nextLine(buf, 4024);
+	fp->nextLine(buf, 1024);
 	string = buf;
 	while (fp->eof() == FALSE)
 	{
@@ -1257,7 +1257,7 @@ Bool EditParameter::loadCommandButtons(CComboBox *pCombo, AsciiString match)
 				}
 			}
 		}
-		fp->nextLine(buf, 4024);
+		fp->nextLine(buf, 1024);
 		string = buf;
 	}
 
@@ -1366,7 +1366,7 @@ void EditParameter::readFontFile( const char *filename )
 		GameFont *font = TheFontLibrary->getFont( AsciiString(fontBuffer), size, bold );
 		if( font == nullptr )
 		{
-			char buffer[ 4024 ];
+			char buffer[ 1024 ];
 
 			snprintf( buffer, ARRAY_SIZE(buffer), "Warning: The font '%s' Size: '%d' Bold: '%d', specified in the config file could not be loaded.  Does that font exist?",
 							 fontBuffer, size, bold );
