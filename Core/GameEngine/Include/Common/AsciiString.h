@@ -115,8 +115,8 @@ public:
 
 	enum
 	{
-		MAX_FORMAT_BUF_LEN = 4096,		///< max total len of string created by format/format_va
-		MAX_LEN = 65534							///< max total len of any AsciiString, in chars
+		MAX_FORMAT_BUF_LEN = 3072,		///< max total len of string created by format/format_va
+		MAX_LEN = 50000							///< max total len of any AsciiString, in chars
 	};
 
 
