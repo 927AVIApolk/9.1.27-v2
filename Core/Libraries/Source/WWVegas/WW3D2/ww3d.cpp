@@ -226,7 +226,7 @@ static bool												_LargeTextureExtraReductionEnabled = false;
 int														WW3D::LastFrameMemoryAllocations;
 int														WW3D::LastFrameMemoryFrees;
 
-int														WW3D::TextureFilter = TextureFilterClass::TextureFilterMode::TEXTURE_FILTER_TRILINEAR;
+int														WW3D::TextureFilter = TextureFilterClass::TextureFilterMode::TEXTURE_FILTER_BILINEAR;
 int														WW3D::AnisotropyLevel = TextureFilterClass::AnisotropicFilterMode::TEXTURE_FILTER_ANISOTROPIC_2X;
 
 bool														WW3D::Lite = false;
