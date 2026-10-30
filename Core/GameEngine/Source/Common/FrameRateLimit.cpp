@@ -67,7 +67,7 @@ void FrameRateLimit::reset()
 
 
 const UnsignedInt RenderFpsPreset::s_fpsValues[] = {
-	30, 35, 50, 60, UncappedFpsValue };
+	30, 35, 45, 50, 60, UncappedFpsValue };
 
 static_assert(LOGICFRAMES_PER_SECOND <= 30, "Min FPS values need to be revisited!");
 
