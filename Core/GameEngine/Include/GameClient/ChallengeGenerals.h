@@ -35,8 +35,8 @@
 #include "Common/Overridable.h"
 
 // DEFINES ////////////////////////////////////////////////////////////////////////////////////////
-//static const Int NUM_GENERALS = 12;  // ChallengeMenu.wnd dependent
-#define NUM_GENERALS (12)
+//static const Int NUM_GENERALS = 20;  // ChallengeMenu.wnd dependent
+#define NUM_GENERALS (20)
 
 // FORWARD REFERENCES /////////////////////////////////////////////////////////////////////////////
 class Image;
